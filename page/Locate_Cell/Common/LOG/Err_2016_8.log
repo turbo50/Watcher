@@ -1,0 +1,406 @@
+8/22/2016 11:01:03 AM | 
+8/22/2016 11:01:03 AM | 
+Message : Le processus ne peut pas accéder au fichier, car il est utilisé par un autre processus.
+8/22/2016 11:01:03 AM | 
+LastTrace : openElement.OEIO.File._InternalDeleteIOSafe(String path)
+8/22/2016 11:01:03 AM | 
+Params : 
+8/22/2016 11:01:03 AM | 
+MethodeName : Void WinIOError(Int32, System.String)
+8/22/2016 11:01:03 AM | 
+Stamp : 8/22/2016 11:01:02 AM
+8/22/2016 11:01:03 AM | 
+OSFullName : Microsoft Windows 10 Professionnel
+8/22/2016 11:01:03 AM | 
+AvailablePhysicalMemory : 1.42 Go 
+8/22/2016 11:01:03 AM | 
+TotalPhysicalMemory : 3.6 Go 
+8/22/2016 11:01:03 AM | 
+AvailableVirtualMemory : 3.36 Go 
+8/22/2016 11:01:03 AM | 
+TotalVirtualMemory : 4 Go 
+8/22/2016 11:01:03 AM | 
+WorkingSet : 165.41 Mo 
+8/22/2016 11:01:03 AM | 
+PagedMemorySize : 119.54 Mo 
+8/22/2016 11:01:03 AM | 
+TotalMemory : 16.83 Mo 
+8/22/2016 11:01:03 AM | 
+
+8/22/2016 11:01:03 AM | 
+ExTrace : 
+8/22/2016 11:01:03 AM | 
+à openElement.OEIO.File._InternalDeleteIOSafe(String path) dans C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Class\Common\OEIO.vb:ligne 41
+8/22/2016 11:01:03 AM | 
+à openElement.OEIO.File.Delete(String path, Boolean showError, Boolean logError) dans C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Class\Common\OEIO.vb:ligne 56
+8/22/2016 11:01:03 AM | 
+
+8/22/2016 11:01:03 AM | 
+OETrace : 
+8/22/2016 11:01:03 AM | 
+à openElement.OEIO.File.Delete(String path, Boolean showError, Boolean logError) dans C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Class\Common\OEIO.vb:ligne 73
+8/22/2016 11:01:03 AM | 
+à openElement.WebSite.WebSite.InstallSiteSyncList(LocalConnection siteConn, FilesMap fileMap, Boolean forceUpdate) dans C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Class\WebSite\WebSite.vb:ligne 121
+8/22/2016 11:01:03 AM | 
+à openElement.WebSite.WebSite.InstallSiteSyncList(LocalConnection siteConn, FilesMap fileMap, Boolean forceUpdate) dans C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Class\WebSite\WebSite.vb:ligne 88
+8/22/2016 11:01:03 AM | 
+à openElement.WebSite.WebSite.InstallSiteSync(GlobalConfig config, Boolean forceUpdate, Boolean forceDeleteOldFiles) dans C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Class\WebSite\WebSite.vb:ligne 73
+8/22/2016 11:01:03 AM | 
+à openElement.WebSite.WebSite.Open(ActionArg`2 actionArg) dans C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Class\WebSite\WebSite.Open.vb:ligne 157
+8/22/2016 11:01:03 AM | 
+à openElement.WebSite.WebSite._Lambda$__21(ActionArg a0) dans C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Class\WebSite\WebSite.Open.vb:ligne 71
+8/22/2016 11:01:03 AM | 
+à openElement.Wait.RunFunction[TResult](FuncWait`1 action, ActionArg param, String text1, String text2, WaitIconType iconType) dans C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Class\Common\Wait.vb:ligne 199
+8/22/2016 11:01:03 AM | 
+à openElement.WebSite.WebSite.Open(String path, Boolean createProject) dans C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Class\WebSite\WebSite.Open.vb:ligne 71
+8/22/2016 11:01:03 AM | 
+à openElement.WebSite.WebSite.Create(ActionArg`5 actionArg) dans C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Class\WebSite\WebSite.Create.vb:ligne 94
+8/22/2016 11:01:03 AM | 
+à openElement.WebSite.WebSite._Lambda$__20(ActionArg a0) dans C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Class\WebSite\WebSite.Create.vb:ligne 22
+8/22/2016 11:01:03 AM | 
+à openElement.Wait.RunFunction[TResult](FuncWait`1 action, ActionArg param, String text1, String text2, WaitIconType iconType) dans C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Class\Common\Wait.vb:ligne 199
+8/22/2016 11:01:03 AM | 
+à openElement.WebSite.WebSite.Create(String rootDestPath, String name, Language defLang, List`1 otherLang, ModelDetails model) dans C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Class\WebSite\WebSite.Create.vb:ligne 22
+8/22/2016 11:01:03 AM | 
+à openElement.Forms.FrmNewProject.ButtonCreate_Click(Object sender, EventArgs e) dans C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Form\Project\FrmNewProject.vb:ligne 296
+8/22/2016 11:01:03 AM | 
+à openElement.Forms.Main.RibbonCore.RPProject.RPGHome.BBIProjectHomeNew_ItemClick(Object sender, ItemClickEventArgs e) dans C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Form\Main\RibbonItemCore\Project\RPGHome.vb:ligne 70
+8/22/2016 11:01:03 AM | 
+à openElement.My.MyApplication.Main(String[] Args) dans 17d14f5c-a337-4978-8281-53493378c1071.vb:ligne 82
+8/22/2016 11:01:03 AM | 
+
+8/22/2016 11:01:03 AM | 
+------------------
+8/22/2016 11:01:09 AM | 
+8/22/2016 11:01:09 AM | 
+Message : Le fichier 'C:\xampp\htdocs\Watcher\page\Locate_Cell\Data\.htaccess' existe déjà.
+8/22/2016 11:01:09 AM | 
+LastTrace : openElement.OEIO.FileInfo.CopyTo(String destPath, Boolean showError, Boolean logError)
+8/22/2016 11:01:09 AM | 
+Params : 
+8/22/2016 11:01:09 AM | 
+MethodeName : Void WinIOError(Int32, System.String)
+8/22/2016 11:01:09 AM | 
+Stamp : 8/22/2016 11:01:09 AM
+8/22/2016 11:01:09 AM | 
+OSFullName : Microsoft Windows 10 Professionnel
+8/22/2016 11:01:09 AM | 
+AvailablePhysicalMemory : 1.42 Go 
+8/22/2016 11:01:09 AM | 
+TotalPhysicalMemory : 3.6 Go 
+8/22/2016 11:01:09 AM | 
+AvailableVirtualMemory : 3.36 Go 
+8/22/2016 11:01:09 AM | 
+TotalVirtualMemory : 4 Go 
+8/22/2016 11:01:09 AM | 
+WorkingSet : 166.82 Mo 
+8/22/2016 11:01:09 AM | 
+PagedMemorySize : 120.77 Mo 
+8/22/2016 11:01:09 AM | 
+TotalMemory : 16.49 Mo 
+8/22/2016 11:01:09 AM | 
+
+8/22/2016 11:01:09 AM | 
+ExTrace : 
+8/22/2016 11:01:09 AM | 
+à openElement.OEIO.FileInfo.CopyTo(String destPath, Boolean showError, Boolean logError) dans C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Class\Common\OEIO.vb:ligne 370
+8/22/2016 11:01:09 AM | 
+
+8/22/2016 11:01:09 AM | 
+OETrace : 
+8/22/2016 11:01:09 AM | 
+à openElement.OEIO.FileInfo.CopyTo(String destPath, Boolean showError, Boolean logError) dans C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Class\Common\OEIO.vb:ligne 376
+8/22/2016 11:01:09 AM | 
+à openElement.WebSite.WebSite.InstallSiteSyncList(LocalConnection siteConn, FilesMap fileMap, Boolean forceUpdate) dans C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Class\WebSite\WebSite.vb:ligne 129
+8/22/2016 11:01:09 AM | 
+à openElement.WebSite.WebSite.InstallSiteSyncList(LocalConnection siteConn, FilesMap fileMap, Boolean forceUpdate) dans C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Class\WebSite\WebSite.vb:ligne 88
+8/22/2016 11:01:09 AM | 
+à openElement.WebSite.WebSite.InstallSiteSync(GlobalConfig config, Boolean forceUpdate, Boolean forceDeleteOldFiles) dans C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Class\WebSite\WebSite.vb:ligne 73
+8/22/2016 11:01:09 AM | 
+à openElement.WebSite.WebSite.Open(ActionArg`2 actionArg) dans C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Class\WebSite\WebSite.Open.vb:ligne 157
+8/22/2016 11:01:09 AM | 
+à openElement.WebSite.WebSite._Lambda$__21(ActionArg a0) dans C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Class\WebSite\WebSite.Open.vb:ligne 71
+8/22/2016 11:01:09 AM | 
+à openElement.Wait.RunFunction[TResult](FuncWait`1 action, ActionArg param, String text1, String text2, WaitIconType iconType) dans C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Class\Common\Wait.vb:ligne 199
+8/22/2016 11:01:09 AM | 
+à openElement.WebSite.WebSite.Open(String path, Boolean createProject) dans C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Class\WebSite\WebSite.Open.vb:ligne 71
+8/22/2016 11:01:09 AM | 
+à openElement.WebSite.WebSite.Create(ActionArg`5 actionArg) dans C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Class\WebSite\WebSite.Create.vb:ligne 94
+8/22/2016 11:01:09 AM | 
+à openElement.WebSite.WebSite._Lambda$__20(ActionArg a0) dans C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Class\WebSite\WebSite.Create.vb:ligne 22
+8/22/2016 11:01:09 AM | 
+à openElement.Wait.RunFunction[TResult](FuncWait`1 action, ActionArg param, String text1, String text2, WaitIconType iconType) dans C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Class\Common\Wait.vb:ligne 199
+8/22/2016 11:01:09 AM | 
+à openElement.WebSite.WebSite.Create(String rootDestPath, String name, Language defLang, List`1 otherLang, ModelDetails model) dans C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Class\WebSite\WebSite.Create.vb:ligne 22
+8/22/2016 11:01:09 AM | 
+à openElement.Forms.FrmNewProject.ButtonCreate_Click(Object sender, EventArgs e) dans C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Form\Project\FrmNewProject.vb:ligne 296
+8/22/2016 11:01:09 AM | 
+à openElement.Forms.Main.RibbonCore.RPProject.RPGHome.BBIProjectHomeNew_ItemClick(Object sender, ItemClickEventArgs e) dans C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Form\Main\RibbonItemCore\Project\RPGHome.vb:ligne 70
+8/22/2016 11:01:09 AM | 
+à openElement.My.MyApplication.Main(String[] Args) dans 17d14f5c-a337-4978-8281-53493378c1071.vb:ligne 82
+8/22/2016 11:01:09 AM | 
+
+8/22/2016 11:01:09 AM | 
+------------------
+29/08/2016 18:56:06 | 
+29/08/2016 18:56:06 | 
+Message : Script timed out
+29/08/2016 18:56:06 | 
+LastTrace : openElement.CtlBrowser._InvokeScriptWaitResult(Object[] args)
+29/08/2016 18:56:06 | 
+Params : 
+29/08/2016 18:56:06 | 
+MethodeName : gcroot<System::Object ^>* CefSharp.ScriptCore.Evaluate(CefSharp.ScriptCore*, gcroot<System::Object ^>*, CefRefPtr<CefBrowser>*, CefStringBase<CefStringTraitsUTF16>*, Double)
+29/08/2016 18:56:06 | 
+Stamp : 29/08/2016 18:56:04
+29/08/2016 18:56:06 | 
+OSFullName : Microsoft Windows 10 Professionnel
+29/08/2016 18:56:06 | 
+AvailablePhysicalMemory : 757,01 Mo 
+29/08/2016 18:56:06 | 
+TotalPhysicalMemory : 3,6 Go 
+29/08/2016 18:56:06 | 
+AvailableVirtualMemory : 3,13 Go 
+29/08/2016 18:56:06 | 
+TotalVirtualMemory : 4 Go 
+29/08/2016 18:56:06 | 
+WorkingSet : 253,12 Mo 
+29/08/2016 18:56:06 | 
+PagedMemorySize : 391,99 Mo 
+29/08/2016 18:56:06 | 
+TotalMemory : 45,54 Mo 
+29/08/2016 18:56:06 | 
+
+29/08/2016 18:56:06 | 
+ExTrace : 
+29/08/2016 18:56:06 | 
+à openElement.CtlBrowser._InvokeScriptWaitResult(Object[] args) dans C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Control\CtlBrowser.vb:ligne 525
+29/08/2016 18:56:06 | 
+
+29/08/2016 18:56:06 | 
+OETrace : 
+29/08/2016 18:56:06 | 
+à openElement.CtlBrowser._InvokeScriptWaitResult(Object[] args) dans C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Control\CtlBrowser.vb:ligne 527
+29/08/2016 18:56:06 | 
+à openElement.CtlBrowser._Lambda$__25(Object a0) dans C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Control\CtlBrowser.vb:ligne 519
+29/08/2016 18:56:06 | 
+
+29/08/2016 18:56:06 | 
+------------------
+29/08/2016 18:56:16 | 
+29/08/2016 18:56:16 | 
+Message : Script timed out
+29/08/2016 18:56:16 | 
+LastTrace : openElement.CtlBrowser._InvokeScriptWaitResult(Object[] args)
+29/08/2016 18:56:16 | 
+Params : 
+29/08/2016 18:56:16 | 
+MethodeName : gcroot<System::Object ^>* CefSharp.ScriptCore.Evaluate(CefSharp.ScriptCore*, gcroot<System::Object ^>*, CefRefPtr<CefBrowser>*, CefStringBase<CefStringTraitsUTF16>*, Double)
+29/08/2016 18:56:16 | 
+Stamp : 29/08/2016 18:56:16
+29/08/2016 18:56:16 | 
+OSFullName : Microsoft Windows 10 Professionnel
+29/08/2016 18:56:16 | 
+AvailablePhysicalMemory : 750,76 Mo 
+29/08/2016 18:56:16 | 
+TotalPhysicalMemory : 3,6 Go 
+29/08/2016 18:56:16 | 
+AvailableVirtualMemory : 3,13 Go 
+29/08/2016 18:56:16 | 
+TotalVirtualMemory : 4 Go 
+29/08/2016 18:56:16 | 
+WorkingSet : 253,43 Mo 
+29/08/2016 18:56:16 | 
+PagedMemorySize : 391,99 Mo 
+29/08/2016 18:56:16 | 
+TotalMemory : 46,02 Mo 
+29/08/2016 18:56:16 | 
+
+29/08/2016 18:56:16 | 
+ExTrace : 
+29/08/2016 18:56:16 | 
+à openElement.CtlBrowser._InvokeScriptWaitResult(Object[] args) dans C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Control\CtlBrowser.vb:ligne 525
+29/08/2016 18:56:16 | 
+
+29/08/2016 18:56:16 | 
+OETrace : 
+29/08/2016 18:56:16 | 
+à openElement.CtlBrowser._InvokeScriptWaitResult(Object[] args) dans C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Control\CtlBrowser.vb:ligne 527
+29/08/2016 18:56:16 | 
+à openElement.CtlBrowser._Lambda$__25(Object a0) dans C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Control\CtlBrowser.vb:ligne 519
+29/08/2016 18:56:16 | 
+
+29/08/2016 18:56:16 | 
+------------------
+29/08/2016 18:56:26 | 
+29/08/2016 18:56:26 | 
+Message : Script timed out
+29/08/2016 18:56:26 | 
+LastTrace : openElement.CtlBrowser._InvokeScriptWaitResult(Object[] args)
+29/08/2016 18:56:26 | 
+Params : 
+29/08/2016 18:56:26 | 
+MethodeName : gcroot<System::Object ^>* CefSharp.ScriptCore.Evaluate(CefSharp.ScriptCore*, gcroot<System::Object ^>*, CefRefPtr<CefBrowser>*, CefStringBase<CefStringTraitsUTF16>*, Double)
+29/08/2016 18:56:26 | 
+Stamp : 29/08/2016 18:56:26
+29/08/2016 18:56:26 | 
+OSFullName : Microsoft Windows 10 Professionnel
+29/08/2016 18:56:26 | 
+AvailablePhysicalMemory : 750,72 Mo 
+29/08/2016 18:56:26 | 
+TotalPhysicalMemory : 3,6 Go 
+29/08/2016 18:56:26 | 
+AvailableVirtualMemory : 3,13 Go 
+29/08/2016 18:56:26 | 
+TotalVirtualMemory : 4 Go 
+29/08/2016 18:56:26 | 
+WorkingSet : 252,88 Mo 
+29/08/2016 18:56:26 | 
+PagedMemorySize : 390,94 Mo 
+29/08/2016 18:56:26 | 
+TotalMemory : 46,08 Mo 
+29/08/2016 18:56:26 | 
+
+29/08/2016 18:56:26 | 
+ExTrace : 
+29/08/2016 18:56:26 | 
+à openElement.CtlBrowser._InvokeScriptWaitResult(Object[] args) dans C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Control\CtlBrowser.vb:ligne 525
+29/08/2016 18:56:26 | 
+
+29/08/2016 18:56:26 | 
+OETrace : 
+29/08/2016 18:56:26 | 
+à openElement.CtlBrowser._InvokeScriptWaitResult(Object[] args) dans C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Control\CtlBrowser.vb:ligne 527
+29/08/2016 18:56:26 | 
+à openElement.CtlBrowser._Lambda$__25(Object a0) dans C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Control\CtlBrowser.vb:ligne 519
+29/08/2016 18:56:26 | 
+
+29/08/2016 18:56:26 | 
+------------------
+8/29/2016 8:45:52 PM | 
+8/29/2016 8:45:52 PM | 
+Message : L'élément a déjà été ajouté. Clé du dictionnaire : '31037849'  Clé ajoutée : '31037849'
+8/29/2016 8:45:52 PM | 
+LastTrace : System.Collections.Hashtable.Insert(Object key, Object nvalue, Boolean add)
+8/29/2016 8:45:52 PM | 
+Params : 
+8/29/2016 8:45:52 PM | 
+MethodeName : Void Insert(System.Object, System.Object, Boolean)
+8/29/2016 8:45:52 PM | 
+Stamp : 8/29/2016 8:45:52 PM
+8/29/2016 8:45:52 PM | 
+OSFullName : Microsoft Windows 10 Professionnel
+8/29/2016 8:45:52 PM | 
+AvailablePhysicalMemory : 802.48 Mo 
+8/29/2016 8:45:52 PM | 
+TotalPhysicalMemory : 3.6 Go 
+8/29/2016 8:45:52 PM | 
+AvailableVirtualMemory : 3.12 Go 
+8/29/2016 8:45:52 PM | 
+TotalVirtualMemory : 4 Go 
+8/29/2016 8:45:52 PM | 
+WorkingSet : 263.7 Mo 
+8/29/2016 8:45:52 PM | 
+PagedMemorySize : 383.18 Mo 
+8/29/2016 8:45:52 PM | 
+TotalMemory : 50 Mo 
+8/29/2016 8:45:52 PM | 
+
+8/29/2016 8:45:52 PM | 
+ExTrace : 
+8/29/2016 8:45:52 PM | 
+à System.Collections.Hashtable.Insert(Object key, Object nvalue, Boolean add)
+8/29/2016 8:45:52 PM | 
+à System.Collections.Hashtable.Add(Object key, Object value)
+8/29/2016 8:45:52 PM | 
+à DevExpress.XtraVerticalGrid.PropertyGridControl.MakeDefault(RepositoryItem item)
+8/29/2016 8:45:52 PM | 
+à DevExpress.XtraVerticalGrid.PropertyGridControl.CreateDefaultRowEdit(RowProperties p)
+8/29/2016 8:45:52 PM | 
+à DevExpress.XtraVerticalGrid.VGridControlBase.CreateRowEdit(RowProperties p)
+8/29/2016 8:45:52 PM | 
+à DevExpress.XtraVerticalGrid.VGridControlBase.GetRowEdit(RowProperties properties, Int32 recordIndex)
+8/29/2016 8:45:52 PM | 
+à DevExpress.XtraVerticalGrid.VGridControlBase.CreateEditorViewInfo(RowProperties properties, Int32 recordIndex)
+8/29/2016 8:45:52 PM | 
+à DevExpress.XtraVerticalGrid.ViewInfo.BaseRowViewInfo.CalcRowValueInfo(RowProperties p, Rectangle r, BaseViewInfo viewInfo, Int32 recordIndex)
+8/29/2016 8:45:52 PM | 
+à DevExpress.XtraVerticalGrid.ViewInfo.EditorRowViewInfo.CalcValuesInfo(BaseViewInfo vi, BaseRow nextRow)
+8/29/2016 8:45:52 PM | 
+à DevExpress.XtraVerticalGrid.ViewInfo.BaseRowViewInfo.Calc(Rectangle rowRect, BaseViewInfo vi, BaseRow nextRow)
+8/29/2016 8:45:52 PM | 
+
+8/29/2016 8:45:52 PM | 
+OETrace : 
+8/29/2016 8:45:52 PM | 
+à openElement.My.MyApplication.MyApplication_UnhandledException(Object sender, UnhandledExceptionEventArgs e) dans C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\ApplicationEvents.vb:ligne 80
+8/29/2016 8:45:52 PM | 
+à openElement.My.MyApplication.Main(String[] Args) dans 17d14f5c-a337-4978-8281-53493378c1071.vb:ligne 82
+8/29/2016 8:45:52 PM | 
+
+8/29/2016 8:45:52 PM | 
+------------------
+8/29/2016 8:45:58 PM | 
+8/29/2016 8:45:58 PM | 
+Message : L'élément a déjà été ajouté. Clé du dictionnaire : '31037849'  Clé ajoutée : '31037849'
+8/29/2016 8:45:58 PM | 
+LastTrace : System.Collections.Hashtable.Insert(Object key, Object nvalue, Boolean add)
+8/29/2016 8:45:58 PM | 
+Params : 
+8/29/2016 8:45:58 PM | 
+MethodeName : Void Insert(System.Object, System.Object, Boolean)
+8/29/2016 8:45:58 PM | 
+Stamp : 8/29/2016 8:45:58 PM
+8/29/2016 8:45:58 PM | 
+OSFullName : Microsoft Windows 10 Professionnel
+8/29/2016 8:45:58 PM | 
+AvailablePhysicalMemory : 797.22 Mo 
+8/29/2016 8:45:58 PM | 
+TotalPhysicalMemory : 3.6 Go 
+8/29/2016 8:45:58 PM | 
+AvailableVirtualMemory : 3.12 Go 
+8/29/2016 8:45:58 PM | 
+TotalVirtualMemory : 4 Go 
+8/29/2016 8:45:58 PM | 
+WorkingSet : 267.71 Mo 
+8/29/2016 8:45:58 PM | 
+PagedMemorySize : 383.19 Mo 
+8/29/2016 8:45:58 PM | 
+TotalMemory : 50.28 Mo 
+8/29/2016 8:45:58 PM | 
+
+8/29/2016 8:45:58 PM | 
+ExTrace : 
+8/29/2016 8:45:58 PM | 
+à System.Collections.Hashtable.Insert(Object key, Object nvalue, Boolean add)
+8/29/2016 8:45:58 PM | 
+à System.Collections.Hashtable.Add(Object key, Object value)
+8/29/2016 8:45:58 PM | 
+à DevExpress.XtraVerticalGrid.PropertyGridControl.MakeDefault(RepositoryItem item)
+8/29/2016 8:45:58 PM | 
+à DevExpress.XtraVerticalGrid.PropertyGridControl.CreateDefaultRowEdit(RowProperties p)
+8/29/2016 8:45:58 PM | 
+à DevExpress.XtraVerticalGrid.VGridControlBase.CreateRowEdit(RowProperties p)
+8/29/2016 8:45:58 PM | 
+à DevExpress.XtraVerticalGrid.VGridControlBase.GetRowEdit(RowProperties properties, Int32 recordIndex)
+8/29/2016 8:45:58 PM | 
+à DevExpress.XtraVerticalGrid.VGridControlBase.CreateEditorViewInfo(RowProperties properties, Int32 recordIndex)
+8/29/2016 8:45:58 PM | 
+à DevExpress.XtraVerticalGrid.ViewInfo.BaseRowViewInfo.CalcRowValueInfo(RowProperties p, Rectangle r, BaseViewInfo viewInfo, Int32 recordIndex)
+8/29/2016 8:45:58 PM | 
+à DevExpress.XtraVerticalGrid.ViewInfo.EditorRowViewInfo.CalcValuesInfo(BaseViewInfo vi, BaseRow nextRow)
+8/29/2016 8:45:58 PM | 
+à DevExpress.XtraVerticalGrid.ViewInfo.BaseRowViewInfo.Calc(Rectangle rowRect, BaseViewInfo vi, BaseRow nextRow)
+8/29/2016 8:45:58 PM | 
+
+8/29/2016 8:45:58 PM | 
+OETrace : 
+8/29/2016 8:45:58 PM | 
+à openElement.My.MyApplication.MyApplication_UnhandledException(Object sender, UnhandledExceptionEventArgs e) dans C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\ApplicationEvents.vb:ligne 87
+8/29/2016 8:45:58 PM | 
+à openElement.My.MyApplication.Main(String[] Args) dans 17d14f5c-a337-4978-8281-53493378c1071.vb:ligne 82
+8/29/2016 8:45:58 PM | 
+
+8/29/2016 8:45:58 PM | 
+------------------
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      

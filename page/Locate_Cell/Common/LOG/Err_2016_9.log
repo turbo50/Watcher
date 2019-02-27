@@ -1,0 +1,106 @@
+9/2/2016 12:08:45 AM | 
+9/2/2016 12:08:45 AM | 
+Message : OEGuideline (l'assistant d'optimisation et de référencement) ne répond pas, probablement à cause d'une erreur interne. Forcez la fermeture de son processus via le Gestionnaire de tâches Windows, ou redémarrez l'ordinateur pour pouvoir l'utiliser à nouveau.
+9/2/2016 12:08:45 AM | 
+
+9/2/2016 12:08:45 AM | 
+Astuce: OEGuideline est accessible par une icône dans la Zone de notifications Windows (près de l'horloge système).
+9/2/2016 12:08:45 AM | 
+LastTrace : ExtractEmpty
+9/2/2016 12:08:45 AM | 
+Params : 
+9/2/2016 12:08:45 AM | 
+MethodeName : 
+9/2/2016 12:08:45 AM | 
+Stamp : 9/2/2016 12:07:57 AM
+9/2/2016 12:08:45 AM | 
+OSFullName : Microsoft Windows 10 Professionnel
+9/2/2016 12:08:45 AM | 
+AvailablePhysicalMemory : 525.55 Mo 
+9/2/2016 12:08:45 AM | 
+TotalPhysicalMemory : 3.6 Go 
+9/2/2016 12:08:45 AM | 
+AvailableVirtualMemory : 3.06 Go 
+9/2/2016 12:08:45 AM | 
+TotalVirtualMemory : 4 Go 
+9/2/2016 12:08:45 AM | 
+WorkingSet : 126.36 Mo 
+9/2/2016 12:08:45 AM | 
+PagedMemorySize : 404.68 Mo 
+9/2/2016 12:08:45 AM | 
+TotalMemory : 41.26 Mo 
+9/2/2016 12:08:45 AM | 
+
+9/2/2016 12:08:45 AM | 
+ExTrace : 
+9/2/2016 12:08:45 AM | 
+
+9/2/2016 12:08:45 AM | 
+OETrace : 
+9/2/2016 12:08:45 AM | 
+à openElement.OEGuideline.ProcessTools._ReportGLCrashOnce() dans C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Class\OEGuideline\ProcessTools.vb:ligne 395
+9/2/2016 12:08:45 AM | 
+à openElement.OEGuideline.ProcessTools.Send(RData rData, Boolean async, Boolean reportCrash) dans C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Class\OEGuideline\ProcessTools.vb:ligne 420
+9/2/2016 12:08:45 AM | 
+à openElement.OEGuideline.ProcessTools.SendProjectClose() dans C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Class\OEGuideline\ProcessTools.vb:ligne 218
+9/2/2016 12:08:45 AM | 
+à openElement.WebSite.WebSite.Close(ActionArg`1 actionArg) dans C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Class\WebSite\WebSite.Close.vb:ligne 40
+9/2/2016 12:08:45 AM | 
+à openElement.WebSite.WebSite._Lambda$__19(ActionArg a0) dans C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Class\WebSite\WebSite.Close.vb:ligne 19
+9/2/2016 12:08:45 AM | 
+à openElement.Wait.RunFunction[TResult](FuncWait`1 action, ActionArg param, String text1, String text2, WaitIconType iconType) dans C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Class\Common\Wait.vb:ligne 199
+9/2/2016 12:08:45 AM | 
+à openElement.WebSite.WebSite.Close(Boolean appClose) dans C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Class\WebSite\WebSite.Close.vb:ligne 19
+9/2/2016 12:08:45 AM | 
+à openElement.Forms.Main.FrmMain.FrmMain_FormClosing(Object sender, FormClosingEventArgs e) dans C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Form\Main\FrmMain.vb:ligne 179
+9/2/2016 12:08:45 AM | 
+à openElement.Forms.Main.FrmMain.WndProc(Message& m) dans C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Form\Main\FrmMain.vb:ligne 34
+9/2/2016 12:08:45 AM | 
+à openElement.Forms.Main.FrmMain.WndProc(Message& m) dans C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Form\Main\FrmMain.vb:ligne 34
+9/2/2016 12:08:45 AM | 
+à openElement.Forms.Main.FrmMain.WndProc(Message& m) dans C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Form\Main\FrmMain.vb:ligne 34
+9/2/2016 12:08:45 AM | 
+à openElement.My.MyApplication.Main(String[] Args) dans 17d14f5c-a337-4978-8281-53493378c1071.vb:ligne 82
+9/2/2016 12:08:45 AM | 
+
+9/2/2016 12:08:45 AM | 
+------------------
+9/22/2016 1:18:04 PM | 
+9/22/2016 1:18:04 PM | 
+Message :  = = OEGuideline Bug Report = = 
+9/22/2016 1:18:04 PM | 
+Error: Failed to find elements on the page: PageLinks.mobile-historique
+9/22/2016 1:18:04 PM | 
+____________________
+9/22/2016 1:18:04 PM | 
+Error: CSS parsing failed or found nothing, continue processing
+9/22/2016 1:18:04 PM | 
+
+9/22/2016 1:18:04 PM | 
+LastTrace : ExtractEmpty
+9/22/2016 1:18:04 PM | 
+Params : 
+9/22/2016 1:18:04 PM | 
+MethodeName : 
+9/22/2016 1:18:04 PM | 
+Stamp : 9/22/2016 1:18:04 PM
+9/22/2016 1:18:04 PM | 
+
+9/22/2016 1:18:04 PM | 
+ExTrace : 
+9/22/2016 1:18:04 PM | 
+
+9/22/2016 1:18:04 PM | 
+OETrace : 
+9/22/2016 1:18:04 PM | 
+à openElement.OEGuideline.ProcessTools.EndAnalysis(String serial, String bugReport, Boolean isDBBroken) dans C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Class\OEGuideline\ProcessTools.vb:ligne 209
+9/22/2016 1:18:04 PM | 
+à openElement.HookWinMessage.HandleWndProcMainForm(Message& m) dans C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Class\Common\HookWinMessage.vb:ligne 229
+9/22/2016 1:18:04 PM | 
+à openElement.Forms.Main.FrmMain.WndProc(Message& m) dans C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Form\Main\FrmMain.vb:ligne 40
+9/22/2016 1:18:04 PM | 
+à openElement.My.MyApplication.Main(String[] Args) dans 17d14f5c-a337-4978-8281-53493378c1071.vb:ligne 82
+9/22/2016 1:18:04 PM | 
+
+9/22/2016 1:18:04 PM | 
+------------------
